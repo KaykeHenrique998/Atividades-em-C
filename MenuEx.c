@@ -5,7 +5,7 @@ int valor1;
 int valor2;
 int i = 1;
 int controle;
-
+    
 while(1){
     printf("1- Soma  \n 2 - Subtração \n 3 - Sair . \n " );
     scanf("%d", &controle);
@@ -29,13 +29,10 @@ while(1){
         int sub = valor1 - valor2;
 
         printf("Seu resultado é: %d \n\n", sub);
-        
     }
-
     
     if(controle == 3){
         break;
-        
     }
     i= i + 1;
 }
